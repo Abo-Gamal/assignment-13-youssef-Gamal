@@ -1,0 +1,230 @@
+#Home
+{
+    width: 100%;
+    height: 660px;
+    background-image: url(../images/22-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    color: white;
+    position: relative;
+}
+.HomeOverlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(58, 35, 36, 0.6);
+}
+
+#leftMenu
+{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 20px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    color: white;
+}
+
+
+
+
+#Home h2
+{
+    margin-top: 200px;
+    
+}
+
+
+
+
+#Home h2,p
+{
+    text-align: center;
+    
+}
+
+
+
+
+.sidenav
+{
+    background-color: #414658;
+}
+
+
+
+
+.sidenav a:hover{
+    background-color: rgba(58, 35, 36, 0.6);
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#home-content {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+#home-content h2
+{
+    font-size: 60px;
+}
+
+
+#sliderDown
+{
+    margin: 100px auto;
+    width: 50%;
+    
+}
+
+#sliderDown h3
+{
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(58, 35, 36, 0.6);
+    cursor: pointer;
+    color: white;
+}
+
+
+#sliderDown div
+{
+    padding: 10px;
+    background-color: #ccc;
+    display: none;
+}
+#sliderDown .first{
+    display:block;
+}
+
+
+#count{
+    background-image: url(../images/istockphoto-639634636-612x612.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    position: relative;
+    height: 330px;
+    
+    
+}
+.count-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(58, 35, 36, 0.6);
+    color: white;
+}
+.container{
+    padding: 100px 0px;
+}
+
+.tim
+{
+    
+    padding: 50px;
+    border: 1px solid #FFF;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+
+#contact-us{
+    margin-top:100px;
+}
+#contact-us .head h2{
+    text-transform: uppercase;
+    font-size: 35px;
+    color:#444;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#contact-us .head p{
+    color:#777;
+    font-weight: 300;
+    font-size: 16px;
+}
+#contact-us .con-info h3{
+    color:#444;
+    font-size: 18px;
+    font-weight: bold;
+}
+#contact-us .con-info p{
+    font-size: 16px;
+    line-height: 26px;
+    color:#777;
+}
+#contact-us .icons{
+    margin-top:50px;
+}
+#contact-us .icons p{
+    margin-bottom: 35px;
+}
+#contact-us i{
+    margin-right: 20px;
+    color:#777;
+}
+#contact-us .con-info .social-list{
+    margin-top:60px;
+    color:#777;
+    
+}
+#contact-us .con-info .social-list i{
+    margin-right: 10px;
+    border:1px solid #999;
+    width:40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+}
+#contact-us .con-info .social-list i:hover{
+    color:#fff;
+    background-color: rgba(58, 35, 36, 0.6);
+    border:1px solid rgba(58, 35, 36, 0.6);
+}
+#contact-us form input , #contact-us form textarea{
+    margin-bottom: 20px;
+}
+#contact-us form textarea{
+    height: 200px;
+    resize:vertical;
+}
+#contact-us form button{
+    background-color: rgba(58, 35, 36, 0.6);
+    color:#fff;
+    padding:10px 20px;
+    border-radius: 0;
+    text-transform: uppercase
+}
+#chars{
+    font-size: 20px;
+    color: rgba(58, 35, 36, 0.6);
+}
